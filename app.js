@@ -11,21 +11,21 @@ app.listen(3000, function (erro) {
 })
 
 app.get("/", function (req, res) {
-    res.send("Bem-vindo a primeira pagina OLA!");
+    res.send("Bem-vindo a primeira pagina!");
 })
 
 app.get("/produtos", function (req, res) {
-    res.send("Comprar item OLA!");
+    res.send("Comprar item!");
 })
 
 app.get("/perfil", function (req, res) {
-    res.send("Pagina de perfil OLA.");
+    res.send("Pagina de perfil.");
 })
 
 app.get("/home", function (req, res) {
-    res.send("Home page, bem-vindo OLA!");
+    res.send("Home page, bem-vindo!");
 })
 
 app.get("/OLA", function (req, res) {
-    res.send("Home page, bem-vindo OLA!");
+    res.send("Home page, bem-vindo!");
 })
